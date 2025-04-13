@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* same as login button */
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .navbar-left {
+    font-size: 16px;
+  }
+  
+  .navbar .navbar-links a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .navbar-links a:hover {
+    color: #d4eaff;
+  }
+  
+  .navbar button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .navbar button:hover {
+    background-color: #d32f2f;
+  }
+  
